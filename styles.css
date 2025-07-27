@@ -8,6 +8,7 @@
   margin: 5px;
   padding: 8px;
   cursor: pointer;
+  display: inline-block;
 }
 .asignatura:hover {
   background: #cceeff;
@@ -17,4 +18,10 @@
   padding: 10px;
   border: 1px solid #0088cc;
   background: #e6f7ff;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  color: #044179;
 }
