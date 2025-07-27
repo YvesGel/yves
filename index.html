@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla de mi carrera</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Malla Interactiva de mi Carrera</h1>
+  <div id="malla">
+    <!-- Aquí puedes colocar los semestres y asignaturas -->
+    <div class="semestre" id="sem1">
+      <h2>Primer Semestre</h2>
+      <div class="asignatura" onclick="mostrarInfo('Matemáticas I')">Matemáticas I</div>
+      <div class="asignatura" onclick="mostrarInfo('Introducción a la Programación')">Introducción a la Programación</div>
+    </div>
+    <!-- Repite para cada semestre -->
+  </div>
+  <div id="infoAsignatura"></div>
+  <script src="script.js"></script>
+</body>
+</html>
