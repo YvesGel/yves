@@ -2,19 +2,31 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Malla de mi carrera</title>
+  <title>Malla Curricular Física - Plan 2017</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Malla Interactiva de mi Carrera</h1>
+  <h1>Malla Interactiva de Física (2017)</h1>
   <div id="malla">
-    <!-- Aquí puedes colocar los semestres y asignaturas -->
+    <!-- Semestres -->
     <div class="semestre" id="sem1">
-      <h2>Primer Semestre</h2>
-      <div class="asignatura" onclick="mostrarInfo('Matemáticas I')">Matemáticas I</div>
-      <div class="asignatura" onclick="mostrarInfo('Introducción a la Programación')">Introducción a la Programación</div>
+      <h2>Semestre I</h2>
+      <div class="asignatura" onclick="mostrarInfo('FISICA 1')">FISICA 1</div>
+      <div class="asignatura" onclick="mostrarInfo('FISICA CONCEPTUAL')">FISICA CONCEPTUAL</div>
+      <div class="asignatura" onclick="mostrarInfo('MATEMATICA BASICA')">MATEMATICA BASICA</div>
+      <div class="asignatura" onclick="mostrarInfo('RAZONAMIENTO LOGICO MATEMATICO')">RAZONAMIENTO LOGICO MATEMATICO</div>
+      <div class="asignatura" onclick="mostrarInfo('METODOLOGIA DEL TRABAJO INTELECTUAL UNIVERSITARIO')">METODOLOGIA DEL TRABAJO INTELECTUAL UNIVERSITARIO</div>
     </div>
-    <!-- Repite para cada semestre -->
+    <div class="semestre" id="sem2">
+      <h2>Semestre II</h2>
+      <div class="asignatura" onclick="mostrarInfo('FISICA 2')">FISICA 2</div>
+      <div class="asignatura" onclick="mostrarInfo('QUIMICA GENERAL')">QUIMICA GENERAL</div>
+      <div class="asignatura" onclick="mostrarInfo('MATEMATICA 1')">MATEMATICA 1</div>
+      <div class="asignatura" onclick="mostrarInfo('COMUNICACION INTEGRAL')">COMUNICACION INTEGRAL</div>
+      <div class="asignatura" onclick="mostrarInfo('REALIDAD NACIONAL')">REALIDAD NACIONAL</div>
+    </div>
+    <!-- Repite la estructura para los semestres III al X usando el contenido de tu malla -->
+    <!-- ... -->
   </div>
   <div id="infoAsignatura"></div>
   <script src="script.js"></script>
